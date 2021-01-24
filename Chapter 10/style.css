@@ -1,0 +1,32 @@
+body{
+
+	font-family:arial:
+}
+
+.mainTable{ 
+	text-align:center;
+	font-weight:bold;
+	width: 100%;
+	height: 300px;
+
+}
+
+h1 {text-align: center;}
+
+.OrangeRed { background-color:#FF4500;}
+
+.Blue {background-color:#0000FF;}
+
+.DarkMagenta {background-color:#8B008B;}
+
+.DarkBlue {background-color:#00008B;}
+
+.Brown {background-color:#A52A2A;}
+
+.DarkPink {background-color:#FF1493;}
+
+.DarkGreen {background-color:#006400;}
+
+.DarkGoldenrod {background-color:#B8860B;}
+
+.Gold {background-color:#FFD700;}

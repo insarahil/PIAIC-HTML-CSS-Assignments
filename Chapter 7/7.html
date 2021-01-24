@@ -1,0 +1,62 @@
+<html>
+<head>
+
+<title>Chapter 7</title>
+
+</head>
+
+<body>
+
+<h1>Chapter#7 - Forms</h1>
+
+<form action="http://www.example.com/login" method="get">
+
+<fieldset>
+<legend>Your Details:</legend>
+
+<p>Name: 
+<input type="text" name="name"/>
+</p>
+
+<p>Email:
+<input type="email" name="email"/>
+</p>
+
+</fieldset>
+
+<fieldset>
+<legend>Your Review:</legend>
+
+<p>How did you hear about us?
+<select>
+<option value="Google" selected="selected">Google</option>
+<option value="Facbooke" selected="selected">Facebook</option>
+<option value="Youtube" selected="selected">Youtube</option>
+</select>
+</p>
+
+<p>Would you visit again?</p>
+
+<input id="yes" type="radio" name="visit"/>
+<label for="yes">Yes</label>
+<input id="no" type="radio" name="visit"/>
+<label for="no">No</label>
+<input id="maybe" type="radio" name="visit"/>
+<label for="maybe">Maybe</label>
+
+<p>Comments:</p>
+<textarea col=20 row= 8 ></textarea>
+<p>
+<input type="checkbox" name="signup"/>
+Sign me up for email updates
+</p>
+<input type="submit" name="submit" value="submitb review"/>
+
+</fieldset>
+
+
+</form>
+
+</body>
+
+</html>
